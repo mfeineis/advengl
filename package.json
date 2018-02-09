@@ -1,0 +1,26 @@
+{
+  "name": "advengl",
+  "version": "0.1.0",
+  "description": "A simple WebGL game",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "elm-make src/Main.elm --output=dist/app.js",
+    "dev": "elm-reactor -p 8080",
+    "dev:serve": "http-server --cors -p 8081 -a 0.0.0.0 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfeineis/advengl.git"
+  },
+  "author": "Martin Feineis",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mfeineis/advengl/issues"
+  },
+  "homepage": "https://github.com/mfeineis/advengl#readme",
+  "devDependencies": {
+    "elm": "^0.18.0",
+    "http-server": "^0.11.1"
+  }
+}
